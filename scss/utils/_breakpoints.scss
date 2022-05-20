@@ -1,25 +1,25 @@
 @use "sass:map";
 @use "variables" as *;
 
-@mixin s_breakpoint {
+@mixin ss_breakpoint {
     @media(max-width: map.get($breakpoints, "s")) {
         @content;
     }
 }
 
-@mixin mbreakpoint {
+@mixin ms_breakpoint {
     @media(max-width: map.get($breakpoints, "m")) {
         @content;
     }
 }
 
-@mixin l_breakpoint {
+@mixin ls_breakpoint {
     @media(max-width: map.get($breakpoints, "l")) {
         @content;
     }
 }
 
-@mixin xl_breakpoint {
+@mixin xls_breakpoint {
     @media(max-width: map.get($breakpoints, "xl")) {
         @content;
     }
