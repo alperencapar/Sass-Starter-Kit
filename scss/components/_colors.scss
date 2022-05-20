@@ -1,5 +1,5 @@
 @use "sass:color";
-@use "variables" as *;
+@use "../utils/variables" as *;
 
 @each $key, $val in $colors {
 

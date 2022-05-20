@@ -1,6 +1,6 @@
-@use "mixins";
-@use "colors";
-@use "functions" as *;
+@use "../utils/mixins";
+@use "../components/colors";
+@use "../utils/functions" as *;
 
 a {
     // padding: convert_size_unit(25, "em");
