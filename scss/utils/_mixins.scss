@@ -1,7 +1,0 @@
-@use "sass:math";
-@use "functions";
-
-@mixin auto_padding($padding-pixel1, $padding-pixel2) {
-    // padding: math.div($padding-pixel, 16)px;
-    padding: functions.convert_size_unit($padding-pixel1, "em") functions.convert_size_unit($padding-pixel2, "em");
-}

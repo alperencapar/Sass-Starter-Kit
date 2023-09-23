@@ -1,8 +1,0 @@
-@use "../utils/mixins";
-@use "../components/colors";
-@use "../utils/functions" as *;
-
-a {
-    // padding: convert_size_unit(25, "em");
-    @include mixins.auto_padding(12,25)
-}

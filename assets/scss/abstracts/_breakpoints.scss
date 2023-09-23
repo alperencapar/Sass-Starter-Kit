@@ -1,0 +1,33 @@
+@use "sass:map";
+
+/*
+@mixin ss_breakpoint {
+	@media (max-width: map.get($breakpoints, "s")) {
+		@content;
+	}
+}
+
+@mixin ms_breakpoint {
+	@media (max-width: map.get($breakpoints, "m")) {
+		@content;
+	}
+}
+
+@mixin ls_breakpoint {
+	@media (max-width: map.get($breakpoints, "l")) {
+		@content;
+	}
+}
+
+@mixin xls_breakpoint {
+	@media (max-width: map.get($breakpoints, "xl")) {
+		@content;
+	}
+}
+
+@mixin auto_breakpoint($width: 0px) {
+	@media (max-width: $width) {
+		@content;
+	}
+}
+*/

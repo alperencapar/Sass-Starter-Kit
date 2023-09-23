@@ -1,0 +1,19 @@
+.modal {
+	&-dialog {
+		.btn {
+			&-container {
+				right: 0;
+				left: unset !important;
+				cursor: pointer;
+			}
+			&-close {
+				background-color: $gray-400;
+				border-radius: unset;
+			}
+		}
+	}
+}
+
+#img-magnifier-modal {
+	cursor: zoom-out;
+}

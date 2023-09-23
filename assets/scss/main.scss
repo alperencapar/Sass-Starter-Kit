@@ -1,0 +1,26 @@
+//This file should only contain @import and comments.
+
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/global";
+@import "abstracts/functions";
+
+@import "base/typography";
+
+@import "vendors/bootstrap";
+
+/* 
+@import "layout/navbar";
+@import "layout/welcome-section";
+@import "layout/about";
+@import "layout/portfolio-section";
+@import "layout/references-section";
+@import "layout/contact-section";
+@import "layout/footer";
+*/
+
+@import "pages/home.scss";
+
+// @import "components/card";
+// @import "components/form";
+// @import "components/animations";
