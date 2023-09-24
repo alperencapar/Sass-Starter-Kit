@@ -15,32 +15,35 @@ export default defineConfig({
 		},
 	},
 	plugins: [
-		htmlPurge([
-			htmlPurge(),
-			ViteImageOptimizer({
-				// https://sharp.pixelplumbing.com/api-output
-				png: {
-					quality: 80,
-				},
-				jpeg: {
-					quality: 80,
-				},
-				jpg: {
-					quality: 80,
-				},
-				tiff: {
-					quality: 80,
-					lossless: true,
-				},
-				webp: {
-					quality: 80,
-					lossless: true,
-				},
-				avif: {
-					quality: 80,
-					lossless: true,
-				},
-			}),
-		]),
+		htmlPurge([htmlPurge()]),
+		ViteImageOptimizer({
+			// https://sharp.pixelplumbing.com/api-output
+			jpeg: {
+				quality: 85,
+				// chromaSubsampling: "4:4:4",
+			},
+			jpg: {
+				quality: 85,
+				// chromaSubsampling: "4:4:4",
+			},
+			png: {
+				quality: 95,
+				compressionLevel: 6,
+				palette: true,
+				effort: 9,
+			},
+			webp: {
+				quality: 85,
+				lossless: true, //false
+			},
+			tiff: {
+				quality: 85,
+				lossless: true,
+			},
+			avif: {
+				quality: 85,
+				lossless: true,
+			},
+		}),
 	],
 })
