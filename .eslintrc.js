@@ -1,9 +1,11 @@
 module.exports = {
-	extends: ["prettier"],
+	extends: ["eslint:recommended", "prettier"],
 	plugins: ["prettier"],
-	rules: {
-		"list-marker-space": 1,
-	},
+	ignorePatterns: ["eslintIgnore/**"],
+	// rules: {
+	// 	"list-marker-space": 1,
+	// },
+
 	// overrides: [
 	// 	{
 	// 		files: ["*.scss"],
