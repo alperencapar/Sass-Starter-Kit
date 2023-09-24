@@ -1,15 +1,16 @@
 module.exports = {
+	root: true,
+	env: {
+		browser: true,
+		es2021: true,
+		node: true,
+	},
 	extends: ["eslint:recommended", "prettier"],
-	plugins: ["prettier"],
 	ignorePatterns: ["eslintIgnore/**"],
-	// rules: {
-	// 	"list-marker-space": 1,
-	// },
+	parserOptions: {
+		ecmaVersion: "latest",
+		sourceType: "module",
+	},
 
-	// overrides: [
-	// 	{
-	// 		files: ["*.scss"],
-	// 		processor: "stylelint-scss",
-	// 	},
-	// ],
+	rules: {},
 }

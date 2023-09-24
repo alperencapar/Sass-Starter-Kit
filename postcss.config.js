@@ -1,4 +1,4 @@
-import autoprefixer from "autoprefixer"
+/* import autoprefixer from "autoprefixer"
 import cssnanoPlugin from "cssnano"
 
 module.exports = {
@@ -9,3 +9,4 @@ module.exports = {
 		}),
 	],
 }
+ */

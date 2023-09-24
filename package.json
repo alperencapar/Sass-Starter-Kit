@@ -6,6 +6,8 @@
 	"scripts": {
 		"prettier": "prettier --write .",
 		"prettier-check": "npx prettier --check .",
+		"eslint": "npx eslint --fix .",
+		"eslint-check": "npx eslint .",
 		"dev": "vite",
 		"build": "vite build",
 		"preview": "vite preview"
